@@ -1,0 +1,5 @@
+*{font-family:$font-default;}
+.container{
+	@extend %width-default;
+}
+

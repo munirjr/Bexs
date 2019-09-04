@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Bexs">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="msapplication-TileColor" content="#ca2a60">
+	<meta name="msapplication-TileImage" content="imagens\favicon\ms-icon-144x144.png">
+	<meta name="theme-color" content="#ca2a60">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+	<title>Prova Banco Bexs</title>
+	<link href="css/bexs.css" rel="stylesheet" type="text/css">
+	<link href="scripts/inputmask.js" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header id="main">
+    	<div class="logo"></div>
+	</header>
+	<section id="credit-card">
+		<header>
+			<a href="javascript:void" class="desktop-step"><i class="fas fa-chevron-left"></i> Alterar forma de pagamento</a>
+			<p class="mobile-step"><i class="fas fa-chevron-left"></i> <strong>Etapa 2</strong> de 3</p>
+		</header>
+		<h1>
+			<div class="info">
+				<span class="ico-card">
+					<img src="images/ico-card.svg" alt="DEMO SHOP"/>
+				</span>
+				<span class="title">
+					Adicione um novo<br/> cartão de crédito
+				</span>
+			</div>
+		</h1>
+        <div class="my-card-off">
+            <div class="flag"><img src="images/image 1@2x.png" alt="Banco Bexs"/></div>
+            <div class="card-number">
+                <div class="block-one">****</div>
+                <div class="block-two">****</div>
+                <div class="block-tree">****</div>
+                <div class="block-four">****</div>
+            </div>
+            <div class="card-info">
+                <div class="client">NOME DO TITULAR</div>
+                <div data-inputmask="'alias': 'datetime'" class="date">00/00</div>
+            </div>
+        </div>
+		<div class="my-card-cvv">
+			<div class="cvv-number">***</div>
+		</div>
+	</section>
+	<section id="info">
+		<div class="breadcrumb">
+			<p><i class="fas fa-check-circle"></i> Carrinho <i class="fas fa-chevron-right"></i> <span class="number-step">2</span>Pagamento <i class="fas fa-chevron-right"></i> <span class="number-step">3</span>Confirmação</p>
+		</div>
+		<form action="">
+			<div class="field">
+				<div class="label-float full-input">
+					<input id="cc" type="text" class="my-number" placeholder=" ">
+					<label>Número do cartão</label>
+					<span class="error">Número de cartão inválido</span>
+				</div>
+			</div>
+			<div class="field">
+				<div class="label-float full-input">
+					<input type="text" class="name" placeholder=" " disabled>
+					<label>Nome (igual ao cartão)</label>
+					<span class="error">Insira seu nome completo</span>
+				</div>
+			</div>
+			<div class="half-field valid-info">
+				<div class="label-float full-input">
+					<input type="text" class="validity" placeholder=" " disabled>
+					<label>Validade</label>
+					<span class="error">Data inválida</span>
+				</div>
+			</div>
+			<div class="half-field cvv-info">
+				<div class="label-float full-input">
+					<input type="text" class="cvv" placeholder=" " maxlength="3" disabled>
+					<label>CVV <i class="fas fa-info-circle"></i></label>
+					<span class="error">Código inválido</span>
+				</div>
+			</div>
+			<div class="field">
+				<div class="label-float full-input">
+					<div class="estilizar">
+						<select class="parcel" disabled>
+							<option></option>
+							<option>1x</option>
+							<option>2x</option>
+							<option>3x</option>
+							<option>4x</option>
+							<option>5x</option>
+							<option>6x</option>
+							<option>7x</option>
+							<option>8x</option>
+							<option>9x</option>
+							<option>10x</option>
+							<option>11x</option>
+							<option>12x</option>
+						</select>
+						<label>Número de parcelas</label>
+						<span class="error">Insira o número de parcelas</span>
+					</div>
+				</div>
+			</div>
+			<button class="send">CONTINUAR</button>
+		</form>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="scripts/bexs.js" type="text/javascript"></script>
+	<script src="scripts/inputmask.js" type="text/javascript"></script>
+</body>
+</html>

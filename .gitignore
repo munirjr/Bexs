@@ -1,0 +1,8 @@
+/node_modules/
+<<<<<<< HEAD
+=======
+/package.jason/
+/package-lock.json/
+/gulpfile.js/
+>>>>>>> dceaa67aa90eeffbf7f726a5ed757585b6847ac0
+*.pptx
